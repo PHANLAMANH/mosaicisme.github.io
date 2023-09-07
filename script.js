@@ -11,11 +11,7 @@ $(document).ready(function () {
 		mm = 0,
 		ss = 0,
 		upIMG,
-<<<<<<< Updated upstream
-		images = ["https://preview.ibb.co/kMdsfm/kfp.png", "https://preview.ibb.co/kWOEt6/minion.png", "https://preview.ibb.co/e0Rv0m/ab.jpg"]
-=======
 		images = ["img/01.png", "img/02.png", "img/03.png", "img/04.png", "img/05.png"]
->>>>>>> Stashed changes
 	img = 0;
 
 
