@@ -136,7 +136,7 @@ $(document).ready(function () {
 
 
 	function changeBG(img) {
-		if (img != 3) {
+		if (img != 10) {
 			$('.me').css({
 				"background-image": "url(" + images[img] + ")"
 			});
