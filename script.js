@@ -11,13 +11,14 @@ $(document).ready(function () {
 		mm = 0,
 		ss = 0,
 		upIMG,
+<<<<<<< Updated upstream
 		images = ["https://preview.ibb.co/kMdsfm/kfp.png", "https://preview.ibb.co/kWOEt6/minion.png", "https://preview.ibb.co/e0Rv0m/ab.jpg"]
+=======
+		images = ["img/01.png", "img/02.png", "img/03.png", "img/04.png", "img/05.png"]
+>>>>>>> Stashed changes
 	img = 0;
 
 
-
-
-	$('.me').css({ "background-image": 'url(' + images[0] + ')' });
 
 	$(".start").click(function () {
 		$(".start").addClass('prevent_click');
@@ -38,6 +39,11 @@ $(document).ready(function () {
 			b,
 			A,
 			B;
+		// Select a random image from the images array
+		var randomIndex = Math.floor(Math.random() * images.length);
+		var img = images[randomIndex];
+
+		$('.me').css({ "background-image": 'url(' + img + ')' });
 		$(".me").click(function () {
 			count++;
 			if (count == 1) {
